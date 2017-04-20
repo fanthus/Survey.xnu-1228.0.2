@@ -1,0 +1,200 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		B5BF89051EA851E600D797AD /* _label.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _label.h; sourceTree = "<group>"; };
+		B5BF89061EA851E600D797AD /* conf */ = {isa = PBXFileReference; lastKnownFileType = folder; path = conf; sourceTree = "<group>"; };
+		B5BF89071EA851E600D797AD /* mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mac.h; sourceTree = "<group>"; };
+		B5BF89081EA851E600D797AD /* mac_alloc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_alloc.c; sourceTree = "<group>"; };
+		B5BF89091EA851E600D797AD /* mac_alloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mac_alloc.h; sourceTree = "<group>"; };
+		B5BF890A1EA851E600D797AD /* mac_audit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_audit.c; sourceTree = "<group>"; };
+		B5BF890B1EA851E600D797AD /* mac_base.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_base.c; sourceTree = "<group>"; };
+		B5BF890C1EA851E600D797AD /* mac_data.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_data.c; sourceTree = "<group>"; };
+		B5BF890D1EA851E600D797AD /* mac_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mac_data.h; sourceTree = "<group>"; };
+		B5BF890E1EA851E600D797AD /* mac_file.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_file.c; sourceTree = "<group>"; };
+		B5BF890F1EA851E600D797AD /* mac_framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mac_framework.h; sourceTree = "<group>"; };
+		B5BF89101EA851E600D797AD /* mac_inet.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_inet.c; sourceTree = "<group>"; };
+		B5BF89111EA851E600D797AD /* mac_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mac_internal.h; sourceTree = "<group>"; };
+		B5BF89121EA851E600D797AD /* mac_iokit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_iokit.c; sourceTree = "<group>"; };
+		B5BF89131EA851E600D797AD /* mac_label.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_label.c; sourceTree = "<group>"; };
+		B5BF89141EA851E600D797AD /* mac_mach_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mac_mach_internal.h; sourceTree = "<group>"; };
+		B5BF89151EA851E600D797AD /* mac_net.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_net.c; sourceTree = "<group>"; };
+		B5BF89161EA851E600D797AD /* mac_pipe.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_pipe.c; sourceTree = "<group>"; };
+		B5BF89171EA851E600D797AD /* mac_policy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mac_policy.h; sourceTree = "<group>"; };
+		B5BF89181EA851E600D797AD /* mac_port.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_port.c; sourceTree = "<group>"; };
+		B5BF89191EA851E600D797AD /* mac_posix_sem.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_posix_sem.c; sourceTree = "<group>"; };
+		B5BF891A1EA851E600D797AD /* mac_posix_shm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_posix_shm.c; sourceTree = "<group>"; };
+		B5BF891B1EA851E600D797AD /* mac_process.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_process.c; sourceTree = "<group>"; };
+		B5BF891C1EA851E600D797AD /* mac_socket.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_socket.c; sourceTree = "<group>"; };
+		B5BF891D1EA851E600D797AD /* mac_stub.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_stub.c; sourceTree = "<group>"; };
+		B5BF891E1EA851E600D797AD /* mac_system.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_system.c; sourceTree = "<group>"; };
+		B5BF891F1EA851E600D797AD /* mac_sysv_msg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_sysv_msg.c; sourceTree = "<group>"; };
+		B5BF89201EA851E600D797AD /* mac_sysv_sem.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_sysv_sem.c; sourceTree = "<group>"; };
+		B5BF89211EA851E600D797AD /* mac_sysv_shm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_sysv_shm.c; sourceTree = "<group>"; };
+		B5BF89221EA851E600D797AD /* mac_task.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_task.c; sourceTree = "<group>"; };
+		B5BF89231EA851E600D797AD /* mac_vfs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_vfs.c; sourceTree = "<group>"; };
+		B5BF89241EA851E600D797AD /* mac_vfs_subr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mac_vfs_subr.c; sourceTree = "<group>"; };
+		B5BF89251EA851E600D797AD /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		B5BF88FF1EA851E600D797AD = {
+			isa = PBXGroup;
+			children = (
+				B5BF89051EA851E600D797AD /* _label.h */,
+				B5BF89061EA851E600D797AD /* conf */,
+				B5BF89071EA851E600D797AD /* mac.h */,
+				B5BF89081EA851E600D797AD /* mac_alloc.c */,
+				B5BF89091EA851E600D797AD /* mac_alloc.h */,
+				B5BF890A1EA851E600D797AD /* mac_audit.c */,
+				B5BF890B1EA851E600D797AD /* mac_base.c */,
+				B5BF890C1EA851E600D797AD /* mac_data.c */,
+				B5BF890D1EA851E600D797AD /* mac_data.h */,
+				B5BF890E1EA851E600D797AD /* mac_file.c */,
+				B5BF890F1EA851E600D797AD /* mac_framework.h */,
+				B5BF89101EA851E600D797AD /* mac_inet.c */,
+				B5BF89111EA851E600D797AD /* mac_internal.h */,
+				B5BF89121EA851E600D797AD /* mac_iokit.c */,
+				B5BF89131EA851E600D797AD /* mac_label.c */,
+				B5BF89141EA851E600D797AD /* mac_mach_internal.h */,
+				B5BF89151EA851E600D797AD /* mac_net.c */,
+				B5BF89161EA851E600D797AD /* mac_pipe.c */,
+				B5BF89171EA851E600D797AD /* mac_policy.h */,
+				B5BF89181EA851E600D797AD /* mac_port.c */,
+				B5BF89191EA851E600D797AD /* mac_posix_sem.c */,
+				B5BF891A1EA851E600D797AD /* mac_posix_shm.c */,
+				B5BF891B1EA851E600D797AD /* mac_process.c */,
+				B5BF891C1EA851E600D797AD /* mac_socket.c */,
+				B5BF891D1EA851E600D797AD /* mac_stub.c */,
+				B5BF891E1EA851E600D797AD /* mac_system.c */,
+				B5BF891F1EA851E600D797AD /* mac_sysv_msg.c */,
+				B5BF89201EA851E600D797AD /* mac_sysv_sem.c */,
+				B5BF89211EA851E600D797AD /* mac_sysv_shm.c */,
+				B5BF89221EA851E600D797AD /* mac_task.c */,
+				B5BF89231EA851E600D797AD /* mac_vfs.c */,
+				B5BF89241EA851E600D797AD /* mac_vfs_subr.c */,
+				B5BF89251EA851E600D797AD /* Makefile */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		B5BF89041EA851E600D797AD /* security */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = B5BF89261EA851E600D797AD /* Build configuration list for PBXLegacyTarget "security" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/xiushan.fan/Documents/Self.Code/Code.GitHub/Survey.xnu-1228.0.2/security";
+			dependencies = (
+			);
+			name = security;
+			passBuildSettingsInEnvironment = 1;
+			productName = security;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		B5BF89001EA851E600D797AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = B5BF89031EA851E600D797AD /* Build configuration list for PBXProject "security" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5BF88FF1EA851E600D797AD;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5BF89041EA851E600D797AD /* security */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		B5BF89011EA851E600D797AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		B5BF89021EA851E600D797AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		B5BF89271EA851E600D797AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = security;
+			};
+			name = Debug;
+		};
+		B5BF89281EA851E600D797AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = security;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5BF89031EA851E600D797AD /* Build configuration list for PBXProject "security" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BF89011EA851E600D797AD /* Debug */,
+				B5BF89021EA851E600D797AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5BF89261EA851E600D797AD /* Build configuration list for PBXLegacyTarget "security" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BF89271EA851E600D797AD /* Debug */,
+				B5BF89281EA851E600D797AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5BF89001EA851E600D797AD /* Project object */;
+}

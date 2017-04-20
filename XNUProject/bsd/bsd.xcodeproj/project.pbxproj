@@ -1,0 +1,188 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		B5BF88101EA851E600D797AD /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		B5BF88111EA851E600D797AD /* bsm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bsm; sourceTree = "<group>"; };
+		B5BF88121EA851E600D797AD /* conf */ = {isa = PBXFileReference; lastKnownFileType = folder; path = conf; sourceTree = "<group>"; };
+		B5BF88131EA851E600D797AD /* crypto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = crypto; sourceTree = "<group>"; };
+		B5BF88141EA851E600D797AD /* dev */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dev; sourceTree = "<group>"; };
+		B5BF88151EA851E600D797AD /* hfs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = hfs; sourceTree = "<group>"; };
+		B5BF88161EA851E600D797AD /* i386 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = i386; sourceTree = "<group>"; };
+		B5BF88171EA851E600D797AD /* isofs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = isofs; sourceTree = "<group>"; };
+		B5BF88181EA851E600D797AD /* kern */ = {isa = PBXFileReference; lastKnownFileType = folder; path = kern; sourceTree = "<group>"; };
+		B5BF88191EA851E600D797AD /* libkern */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libkern; sourceTree = "<group>"; };
+		B5BF881A1EA851E600D797AD /* machine */ = {isa = PBXFileReference; lastKnownFileType = folder; path = machine; sourceTree = "<group>"; };
+		B5BF881B1EA851E600D797AD /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		B5BF881C1EA851E600D797AD /* man */ = {isa = PBXFileReference; lastKnownFileType = folder; path = man; sourceTree = "<group>"; };
+		B5BF881D1EA851E600D797AD /* miscfs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = miscfs; sourceTree = "<group>"; };
+		B5BF881E1EA851E600D797AD /* net */ = {isa = PBXFileReference; lastKnownFileType = folder; path = net; sourceTree = "<group>"; };
+		B5BF881F1EA851E600D797AD /* netat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = netat; sourceTree = "<group>"; };
+		B5BF88201EA851E600D797AD /* netinet */ = {isa = PBXFileReference; lastKnownFileType = folder; path = netinet; sourceTree = "<group>"; };
+		B5BF88211EA851E600D797AD /* netinet6 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = netinet6; sourceTree = "<group>"; };
+		B5BF88221EA851E600D797AD /* netkey */ = {isa = PBXFileReference; lastKnownFileType = folder; path = netkey; sourceTree = "<group>"; };
+		B5BF88231EA851E600D797AD /* nfs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = nfs; sourceTree = "<group>"; };
+		B5BF88241EA851E600D797AD /* ppc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ppc; sourceTree = "<group>"; };
+		B5BF88251EA851E600D797AD /* sys */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sys; sourceTree = "<group>"; };
+		B5BF88261EA851E600D797AD /* ufs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ufs; sourceTree = "<group>"; };
+		B5BF88271EA851E600D797AD /* uuid */ = {isa = PBXFileReference; lastKnownFileType = folder; path = uuid; sourceTree = "<group>"; };
+		B5BF88281EA851E600D797AD /* uxkern */ = {isa = PBXFileReference; lastKnownFileType = folder; path = uxkern; sourceTree = "<group>"; };
+		B5BF88291EA851E600D797AD /* vfs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = vfs; sourceTree = "<group>"; };
+		B5BF882A1EA851E600D797AD /* vm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = vm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		B5BF880A1EA851E600D797AD = {
+			isa = PBXGroup;
+			children = (
+				B5BF88101EA851E600D797AD /* .DS_Store */,
+				B5BF88111EA851E600D797AD /* bsm */,
+				B5BF88121EA851E600D797AD /* conf */,
+				B5BF88131EA851E600D797AD /* crypto */,
+				B5BF88141EA851E600D797AD /* dev */,
+				B5BF88151EA851E600D797AD /* hfs */,
+				B5BF88161EA851E600D797AD /* i386 */,
+				B5BF88171EA851E600D797AD /* isofs */,
+				B5BF88181EA851E600D797AD /* kern */,
+				B5BF88191EA851E600D797AD /* libkern */,
+				B5BF881A1EA851E600D797AD /* machine */,
+				B5BF881B1EA851E600D797AD /* Makefile */,
+				B5BF881C1EA851E600D797AD /* man */,
+				B5BF881D1EA851E600D797AD /* miscfs */,
+				B5BF881E1EA851E600D797AD /* net */,
+				B5BF881F1EA851E600D797AD /* netat */,
+				B5BF88201EA851E600D797AD /* netinet */,
+				B5BF88211EA851E600D797AD /* netinet6 */,
+				B5BF88221EA851E600D797AD /* netkey */,
+				B5BF88231EA851E600D797AD /* nfs */,
+				B5BF88241EA851E600D797AD /* ppc */,
+				B5BF88251EA851E600D797AD /* sys */,
+				B5BF88261EA851E600D797AD /* ufs */,
+				B5BF88271EA851E600D797AD /* uuid */,
+				B5BF88281EA851E600D797AD /* uxkern */,
+				B5BF88291EA851E600D797AD /* vfs */,
+				B5BF882A1EA851E600D797AD /* vm */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		B5BF880F1EA851E600D797AD /* bsd */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = B5BF882B1EA851E600D797AD /* Build configuration list for PBXLegacyTarget "bsd" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/xiushan.fan/Documents/Self.Code/Code.GitHub/Survey.xnu-1228.0.2/bsd";
+			dependencies = (
+			);
+			name = bsd;
+			passBuildSettingsInEnvironment = 1;
+			productName = bsd;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		B5BF880B1EA851E600D797AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = B5BF880E1EA851E600D797AD /* Build configuration list for PBXProject "bsd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5BF880A1EA851E600D797AD;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5BF880F1EA851E600D797AD /* bsd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		B5BF880C1EA851E600D797AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		B5BF880D1EA851E600D797AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		B5BF882C1EA851E600D797AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = bsd;
+			};
+			name = Debug;
+		};
+		B5BF882D1EA851E600D797AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = bsd;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5BF880E1EA851E600D797AD /* Build configuration list for PBXProject "bsd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BF880C1EA851E600D797AD /* Debug */,
+				B5BF880D1EA851E600D797AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5BF882B1EA851E600D797AD /* Build configuration list for PBXLegacyTarget "bsd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BF882C1EA851E600D797AD /* Debug */,
+				B5BF882D1EA851E600D797AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5BF880B1EA851E600D797AD /* Project object */;
+}

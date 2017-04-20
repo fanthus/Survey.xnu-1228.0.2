@@ -1,0 +1,158 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		B5BF886E1EA851E600D797AD /* bsddev */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bsddev; sourceTree = "<group>"; };
+		B5BF886F1EA851E600D797AD /* conf */ = {isa = PBXFileReference; lastKnownFileType = folder; path = conf; sourceTree = "<group>"; };
+		B5BF88701EA851E600D797AD /* Drivers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Drivers; sourceTree = "<group>"; };
+		B5BF88711EA851E600D797AD /* Examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Examples; sourceTree = "<group>"; };
+		B5BF88721EA851E600D797AD /* Families */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Families; sourceTree = "<group>"; };
+		B5BF88731EA851E600D797AD /* IOKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = IOKit; sourceTree = "<group>"; };
+		B5BF88741EA851E600D797AD /* Kernel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Kernel; sourceTree = "<group>"; };
+		B5BF88751EA851E600D797AD /* KernelConfigTables.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KernelConfigTables.cpp; sourceTree = "<group>"; };
+		B5BF88761EA851E600D797AD /* mach-o */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "mach-o"; sourceTree = "<group>"; };
+		B5BF88771EA851E600D797AD /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		B5BF88781EA851E600D797AD /* Tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tests; sourceTree = "<group>"; };
+		B5BF88791EA851E600D797AD /* User */ = {isa = PBXFileReference; lastKnownFileType = folder; path = User; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		B5BF88681EA851E600D797AD = {
+			isa = PBXGroup;
+			children = (
+				B5BF886E1EA851E600D797AD /* bsddev */,
+				B5BF886F1EA851E600D797AD /* conf */,
+				B5BF88701EA851E600D797AD /* Drivers */,
+				B5BF88711EA851E600D797AD /* Examples */,
+				B5BF88721EA851E600D797AD /* Families */,
+				B5BF88731EA851E600D797AD /* IOKit */,
+				B5BF88741EA851E600D797AD /* Kernel */,
+				B5BF88751EA851E600D797AD /* KernelConfigTables.cpp */,
+				B5BF88761EA851E600D797AD /* mach-o */,
+				B5BF88771EA851E600D797AD /* Makefile */,
+				B5BF88781EA851E600D797AD /* Tests */,
+				B5BF88791EA851E600D797AD /* User */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		B5BF886D1EA851E600D797AD /* iokit */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = B5BF887A1EA851E600D797AD /* Build configuration list for PBXLegacyTarget "iokit" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/xiushan.fan/Documents/Self.Code/Code.GitHub/Survey.xnu-1228.0.2/iokit";
+			dependencies = (
+			);
+			name = iokit;
+			passBuildSettingsInEnvironment = 1;
+			productName = iokit;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		B5BF88691EA851E600D797AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = B5BF886C1EA851E600D797AD /* Build configuration list for PBXProject "iokit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5BF88681EA851E600D797AD;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5BF886D1EA851E600D797AD /* iokit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		B5BF886A1EA851E600D797AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		B5BF886B1EA851E600D797AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		B5BF887B1EA851E600D797AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = iokit;
+			};
+			name = Debug;
+		};
+		B5BF887C1EA851E600D797AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = iokit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5BF886C1EA851E600D797AD /* Build configuration list for PBXProject "iokit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BF886A1EA851E600D797AD /* Debug */,
+				B5BF886B1EA851E600D797AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5BF887A1EA851E600D797AD /* Build configuration list for PBXLegacyTarget "iokit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BF887B1EA851E600D797AD /* Debug */,
+				B5BF887C1EA851E600D797AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5BF88691EA851E600D797AD /* Project object */;
+}

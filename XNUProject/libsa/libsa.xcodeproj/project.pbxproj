@@ -1,0 +1,192 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		B5BF889A1EA851E600D797AD /* bootstrap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bootstrap.cpp; sourceTree = "<group>"; };
+		B5BF889B1EA851E600D797AD /* bsearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bsearch.c; sourceTree = "<group>"; };
+		B5BF889C1EA851E600D797AD /* c++rem3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "c++rem3.c"; sourceTree = "<group>"; };
+		B5BF889D1EA851E600D797AD /* c++rem3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c++rem3.h"; sourceTree = "<group>"; };
+		B5BF889E1EA851E600D797AD /* catalogue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = catalogue.cpp; sourceTree = "<group>"; };
+		B5BF889F1EA851E600D797AD /* conf */ = {isa = PBXFileReference; lastKnownFileType = folder; path = conf; sourceTree = "<group>"; };
+		B5BF88A01EA851E600D797AD /* dgraph.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dgraph.c; sourceTree = "<group>"; };
+		B5BF88A11EA851E600D797AD /* dgraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dgraph.h; sourceTree = "<group>"; };
+		B5BF88A21EA851E600D797AD /* i386 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = i386; sourceTree = "<group>"; };
+		B5BF88A31EA851E600D797AD /* kext.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kext.cpp; sourceTree = "<group>"; };
+		B5BF88A41EA851E600D797AD /* kld_patch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = kld_patch.c; sourceTree = "<group>"; };
+		B5BF88A51EA851E600D797AD /* kld_patch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kld_patch.h; sourceTree = "<group>"; };
+		B5BF88A61EA851E600D797AD /* libsa */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libsa; sourceTree = "<group>"; };
+		B5BF88A71EA851E600D797AD /* load.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = load.c; sourceTree = "<group>"; };
+		B5BF88A81EA851E600D797AD /* load.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = load.h; sourceTree = "<group>"; };
+		B5BF88A91EA851E600D797AD /* mach.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mach.c; sourceTree = "<group>"; };
+		B5BF88AA1EA851E600D797AD /* mach_loader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mach_loader.h; sourceTree = "<group>"; };
+		B5BF88AB1EA851E600D797AD /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		B5BF88AC1EA851E600D797AD /* malloc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = malloc.c; sourceTree = "<group>"; };
+		B5BF88AD1EA851E600D797AD /* malloc_debug_stuff */ = {isa = PBXFileReference; lastKnownFileType = text; path = malloc_debug_stuff; sourceTree = "<group>"; };
+		B5BF88AE1EA851E600D797AD /* malloc_unused */ = {isa = PBXFileReference; lastKnownFileType = text; path = malloc_unused; sourceTree = "<group>"; };
+		B5BF88AF1EA851E600D797AD /* misc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = misc.c; sourceTree = "<group>"; };
+		B5BF88B01EA851E600D797AD /* mkext.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mkext.c; sourceTree = "<group>"; };
+		B5BF88B11EA851E600D797AD /* ppc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ppc; sourceTree = "<group>"; };
+		B5BF88B21EA851E600D797AD /* printPlist */ = {isa = PBXFileReference; lastKnownFileType = text; path = printPlist; sourceTree = "<group>"; };
+		B5BF88B31EA851E600D797AD /* sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sort.c; sourceTree = "<group>"; };
+		B5BF88B41EA851E600D797AD /* strrchr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = strrchr.c; sourceTree = "<group>"; };
+		B5BF88B51EA851E600D797AD /* strstr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = strstr.c; sourceTree = "<group>"; };
+		B5BF88B61EA851E600D797AD /* vers_rsrc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vers_rsrc.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		B5BF88941EA851E600D797AD = {
+			isa = PBXGroup;
+			children = (
+				B5BF889A1EA851E600D797AD /* bootstrap.cpp */,
+				B5BF889B1EA851E600D797AD /* bsearch.c */,
+				B5BF889C1EA851E600D797AD /* c++rem3.c */,
+				B5BF889D1EA851E600D797AD /* c++rem3.h */,
+				B5BF889E1EA851E600D797AD /* catalogue.cpp */,
+				B5BF889F1EA851E600D797AD /* conf */,
+				B5BF88A01EA851E600D797AD /* dgraph.c */,
+				B5BF88A11EA851E600D797AD /* dgraph.h */,
+				B5BF88A21EA851E600D797AD /* i386 */,
+				B5BF88A31EA851E600D797AD /* kext.cpp */,
+				B5BF88A41EA851E600D797AD /* kld_patch.c */,
+				B5BF88A51EA851E600D797AD /* kld_patch.h */,
+				B5BF88A61EA851E600D797AD /* libsa */,
+				B5BF88A71EA851E600D797AD /* load.c */,
+				B5BF88A81EA851E600D797AD /* load.h */,
+				B5BF88A91EA851E600D797AD /* mach.c */,
+				B5BF88AA1EA851E600D797AD /* mach_loader.h */,
+				B5BF88AB1EA851E600D797AD /* Makefile */,
+				B5BF88AC1EA851E600D797AD /* malloc.c */,
+				B5BF88AD1EA851E600D797AD /* malloc_debug_stuff */,
+				B5BF88AE1EA851E600D797AD /* malloc_unused */,
+				B5BF88AF1EA851E600D797AD /* misc.c */,
+				B5BF88B01EA851E600D797AD /* mkext.c */,
+				B5BF88B11EA851E600D797AD /* ppc */,
+				B5BF88B21EA851E600D797AD /* printPlist */,
+				B5BF88B31EA851E600D797AD /* sort.c */,
+				B5BF88B41EA851E600D797AD /* strrchr.c */,
+				B5BF88B51EA851E600D797AD /* strstr.c */,
+				B5BF88B61EA851E600D797AD /* vers_rsrc.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		B5BF88991EA851E600D797AD /* libsa */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = B5BF88B71EA851E600D797AD /* Build configuration list for PBXLegacyTarget "libsa" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/xiushan.fan/Documents/Self.Code/Code.GitHub/Survey.xnu-1228.0.2/libsa";
+			dependencies = (
+			);
+			name = libsa;
+			passBuildSettingsInEnvironment = 1;
+			productName = libsa;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		B5BF88951EA851E600D797AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = B5BF88981EA851E600D797AD /* Build configuration list for PBXProject "libsa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5BF88941EA851E600D797AD;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5BF88991EA851E600D797AD /* libsa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		B5BF88961EA851E600D797AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		B5BF88971EA851E600D797AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		B5BF88B81EA851E600D797AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libsa;
+			};
+			name = Debug;
+		};
+		B5BF88B91EA851E600D797AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libsa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5BF88981EA851E600D797AD /* Build configuration list for PBXProject "libsa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BF88961EA851E600D797AD /* Debug */,
+				B5BF88971EA851E600D797AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5BF88B71EA851E600D797AD /* Build configuration list for PBXLegacyTarget "libsa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BF88B81EA851E600D797AD /* Debug */,
+				B5BF88B91EA851E600D797AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5BF88951EA851E600D797AD /* Project object */;
+}

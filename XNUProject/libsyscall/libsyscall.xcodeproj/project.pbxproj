@@ -1,0 +1,156 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		B5BF88C01EA851E600D797AD /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		B5BF88C11EA851E600D797AD /* BSDmakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = BSDmakefile; sourceTree = "<group>"; };
+		B5BF88C21EA851E600D797AD /* create-syscalls.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "create-syscalls.pl"; sourceTree = "<group>"; };
+		B5BF88C31EA851E600D797AD /* custom */ = {isa = PBXFileReference; lastKnownFileType = folder; path = custom; sourceTree = "<group>"; };
+		B5BF88C41EA851E600D797AD /* fixdups.ed */ = {isa = PBXFileReference; lastKnownFileType = text; path = fixdups.ed; sourceTree = "<group>"; };
+		B5BF88C51EA851E600D797AD /* GNUmakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = GNUmakefile; sourceTree = "<group>"; };
+		B5BF88C61EA851E600D797AD /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		B5BF88C71EA851E600D797AD /* mach */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mach; sourceTree = "<group>"; };
+		B5BF88C81EA851E600D797AD /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		B5BF88C91EA851E600D797AD /* Makefile.inc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.pascal; path = Makefile.inc; sourceTree = "<group>"; };
+		B5BF88CA1EA851E600D797AD /* Makefile.xbs */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.xbs; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		B5BF88BA1EA851E600D797AD = {
+			isa = PBXGroup;
+			children = (
+				B5BF88C01EA851E600D797AD /* .DS_Store */,
+				B5BF88C11EA851E600D797AD /* BSDmakefile */,
+				B5BF88C21EA851E600D797AD /* create-syscalls.pl */,
+				B5BF88C31EA851E600D797AD /* custom */,
+				B5BF88C41EA851E600D797AD /* fixdups.ed */,
+				B5BF88C51EA851E600D797AD /* GNUmakefile */,
+				B5BF88C61EA851E600D797AD /* include */,
+				B5BF88C71EA851E600D797AD /* mach */,
+				B5BF88C81EA851E600D797AD /* Makefile */,
+				B5BF88C91EA851E600D797AD /* Makefile.inc */,
+				B5BF88CA1EA851E600D797AD /* Makefile.xbs */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		B5BF88BF1EA851E600D797AD /* libsyscall */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = B5BF88CB1EA851E600D797AD /* Build configuration list for PBXLegacyTarget "libsyscall" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/xiushan.fan/Documents/Self.Code/Code.GitHub/Survey.xnu-1228.0.2/libsyscall";
+			dependencies = (
+			);
+			name = libsyscall;
+			passBuildSettingsInEnvironment = 1;
+			productName = libsyscall;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		B5BF88BB1EA851E600D797AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = B5BF88BE1EA851E600D797AD /* Build configuration list for PBXProject "libsyscall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5BF88BA1EA851E600D797AD;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5BF88BF1EA851E600D797AD /* libsyscall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		B5BF88BC1EA851E600D797AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		B5BF88BD1EA851E600D797AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		B5BF88CC1EA851E600D797AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libsyscall;
+			};
+			name = Debug;
+		};
+		B5BF88CD1EA851E600D797AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libsyscall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5BF88BE1EA851E600D797AD /* Build configuration list for PBXProject "libsyscall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BF88BC1EA851E600D797AD /* Debug */,
+				B5BF88BD1EA851E600D797AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5BF88CB1EA851E600D797AD /* Build configuration list for PBXLegacyTarget "libsyscall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BF88CC1EA851E600D797AD /* Debug */,
+				B5BF88CD1EA851E600D797AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5BF88BB1EA851E600D797AD /* Project object */;
+}
